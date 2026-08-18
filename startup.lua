@@ -9,7 +9,7 @@ local files = {
     }
 }
 
-for i=1, files do
+for i=1, #files do
     print(string.format("%s is being updated!", files[i].filename))
     local data = http.get(files[i].link)
 
