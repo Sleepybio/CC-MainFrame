@@ -27,7 +27,7 @@ for i=1, #files do
     newData = data.readAll()
 
     newinfo = fs.open(files[i].filename, "w")
-    newinfo.write(newdata)
+    newinfo.write(newData)
     newinfo.close()
 
     if oldData == newData then
