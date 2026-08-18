@@ -17,7 +17,7 @@ for i=1, #files do
     local newData
 
     if fs.exists(files[i].filename) then
-        oldinfo = fs.open(files[i].filename)
+        oldinfo = fs.open(files[i].filename,"r")
         oldData = oldinfo.readAll()
         oldinfo.close()
     else
@@ -26,7 +26,7 @@ for i=1, #files do
 
     newData = data.readAll()
 
-    newinfo = fs.open(files[i].filename)
+    newinfo = fs.open(files[i].filename, "w")
     newinfo.write(newdata)
     newinfo.close()
 
