@@ -1,7 +1,11 @@
 local files = {
     {
-        ["filenames"] = "main.lua",
-        ["link"] = "https://raw.githubusercontent.com/Sleepybio/CC-MainFrame/refs/heads/main/main.lua"
+        ["filename"] = "main.lua",
+        ["link"] = "https://raw.githubusercontent.com/Sleepybio/CC-MainFrame/refs/heads/main/main.lua?token=GHSAT0AAAAAAEGDS44DTEHHVTG4BXAJO4JY2UEPFEQ"
+    },
+    {
+        ["filename"] ="function.lua",
+        ["link"] = "https://raw.githubusercontent.com/Sleepybio/CC-MainFrame/refs/heads/main/function.lua?token=GHSAT0AAAAAAEGDS44CMM763VC6NWUQMMVC2UEPGBA"
     }
 }
 
