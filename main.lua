@@ -1,0 +1,1 @@
+local initPeripherals = require("function.lua")

@@ -1,7 +1,7 @@
 local files = {
     {
         ["filenames"] = "main.lua",
-        ["link"] = ""
+        ["link"] = "https://raw.githubusercontent.com/Sleepybio/CC-MainFrame/refs/heads/main/main.lua"
     }
 }
 
