@@ -53,7 +53,7 @@ local config = {
             file.close()
         end
         return data
-    end
+    end,
 
     ["append"] = function (data,newDB)
         -- Appending "data"
@@ -112,7 +112,7 @@ function drawUI()
     local motd = {
         "Have a fun day ruling the world!",
         "Fucking Idiot....",
-        "Nuclear warfare everywhere!"
+        "Nuclear warfare everywhere!",
         "Why did that break?"
     }
 
