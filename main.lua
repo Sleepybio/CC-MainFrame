@@ -9,5 +9,6 @@ local running = true
 
 while running do
     -- Main handling Functionality
-    parallel.waitForAny(utils.listen(),utils.drawUI())
+    local x=parallel.waitForAny(utils.listen,utils.drawUI)
+    print(x)
 end
