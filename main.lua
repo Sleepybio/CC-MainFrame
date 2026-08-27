@@ -1,2 +1,13 @@
 -- Importing Functionalities
-local initPeripherals = require("function.lua")
+local utils = require("function")
+local config = utils.config
+local DB = config.init()
+
+local running = true
+
+-- Main Loop --
+
+while running do
+    -- Main handling Functionality
+    parallel.waitForAny(utils.listen(),utils.drawUI())
+end
