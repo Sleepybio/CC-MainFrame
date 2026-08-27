@@ -53,7 +53,7 @@ local config = {
             file.close()
         end
         return data
-    end
+    end,
 
     ["append"] = function (data,newDB)
         -- Appending "data"
